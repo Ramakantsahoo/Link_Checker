@@ -18,7 +18,7 @@ body {
 }
 
 .results-container {
-  max-height: 400px; /* Adjust the max height as needed */
+  max-height: 400px; 
   overflow-y: auto;
 }
 

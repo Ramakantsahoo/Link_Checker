@@ -1,4 +1,3 @@
-// pages/api/check-links.js
 import axios from 'axios';
 
 export default async function handler(req, res) {
@@ -14,8 +13,6 @@ export default async function handler(req, res) {
     res.status(500).json({ error: 'Error fetching page' });
   }
 }
-
-// ...rest of the file remains unchanged
 
 
 function extractLinks(html) {
