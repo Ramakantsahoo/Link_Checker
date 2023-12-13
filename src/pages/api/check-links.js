@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default async function handler(req, res) {
-  const { link } = req.body; // Change 'url' to 'link'
+  const { link } = req.body; 
 
   try {
     const { data: html } = await axios.get(link.startsWith('http') || link.startsWith('https') ? link : `http://${link}`);
